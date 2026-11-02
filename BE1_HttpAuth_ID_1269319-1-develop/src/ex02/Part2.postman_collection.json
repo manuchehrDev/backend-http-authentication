@@ -1,0 +1,124 @@
+{
+	"info": {
+		"_postman_id": "52a03516-30e5-42f4-a0db-367e663e79f0",
+		"name": "Part2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39995952"
+	},
+	"item": [
+		{
+			"name": "https://kazan.hh.ru/shards/vacancy/contact_info?employer_id=5709&id=134668209",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9,ru;q=0.8"
+					},
+					{
+						"key": "baggage",
+						"value": "sentry-trace_id=a4ab66dcc3164b3b9c0503aabfd3e59a,sentry-sample_rand=0.792626,sentry-environment=production,sentry-release=xhh%4026.29.5,sentry-public_key=0cc3a09b6698423b8ca47d3478cfccac,sentry-transaction=%2Fvacancy%2F%7Bid%3Aint%7D,sentry-sample_rate=0.001,sentry-sampled=false"
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://kazan.hh.ru/vacancy/134668209"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Linux\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sentry-trace",
+						"value": "a4ab66dcc3164b3b9c0503aabfd3e59a-a0edbfb9c636adab-0"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "x-gib-fgsscgib-w-hh",
+						"value": "hX8201bfe38d0d8658397983fff4f9b5c81e820f"
+					},
+					{
+						"key": "x-gib-gsscgib-w-hh",
+						"value": "rZtGcHx3imrX9yKT5jMsf3ztY7bZL1q/sY9X8AZ0wgC4ovFnZvxv7N0KN8Q3ljJoO5hxfohpiiIXgAR0JMYRJzaJzREhOA6STsFxV8ukX/uEMNnYCk2pi840oZjq9p1Q+baCf3jQk+cKAO1kwFmyXW7EVhkHGGQBFa/V+6D+EmtoHXRUY1WPxJoeSedcLDuZ7N+S3xA6qsOtXMKMOnqxRXkmrEhhBjULviAGlGuLbS3s0oab77XfC1QSnH0dvp+FTODUGrCVODqK+S1yHws="
+					},
+					{
+						"key": "x-hhtmfrom",
+						"value": ""
+					},
+					{
+						"key": "x-hhtmsource",
+						"value": "vacancy"
+					},
+					{
+						"key": "x-requested-with",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "x-xsrftoken",
+						"value": "215b24965a8bdc2f033203f9f95ce594"
+					},
+					{
+						"key": "Cookie",
+						"value": "__ddg1_=U1bKbvr76Yv73M6tPGIf; _xsrf=215b24965a8bdc2f033203f9f95ce594; hhuid=tG82y4!gOA_Z32paFN0xHQ--; regions=88; display=desktop; crypted_hhuid=0EEB3D821594DA7BB5D86E800D02A28AED895E72A1A1A5B2A7DC070F579486F6; _ibc=False; GMT=0; tmr_lvid=d8d6beaea03207a4fec8a874564df544; tmr_lvidTS=1784288477936; iap.uid=f68d1cc918de40b58d2896397f3c26e4; _ym_uid=1784288479234170856; _ym_d=1784288479; domain_sid=yYSAWdx5kDkTmdrf9X2gF%3A1784288479548; TZ=UTC; _ym_isad=1; HOSTILE_ON=0; uxs_uid=712e36e0-81d4-11f1-a998-7b841be04970; region_clarified=kazan.hh.ru; redirect_host=kazan.hh.ru; cookie_policy_agreement=true; hhtoken=suKnt7YEuTuspNG4SyCOT9acs_!j; hhrole=applicant; _hi=149348604; crypted_id=832B5305985A7FF6281025B6E40E0413A5471C6F722104504734B32F0D03E9F8; hhul=de91b46b60bbc4815821b7d6e61168a61205516c2334bdbad9d7e88f31f05b69; __ddg9_=78.138.181.187; _ym_visorc=b; device_breakpoint=s; device_magritte_breakpoint=s; device_breakpoint=s; device_magritte_breakpoint=s; __zzatgib-w-hh=MDA0dC0jViV+FmELHw4/aQsbSl1pCENQGC9LX3krbB5PG09aJEkOCX5WThV9KVcLDAxdQUZzei5BIk5fOVURCxIXRF5cVWl1FRpLSiVueCplJS0xViR8SylEXFV9JyITeXAjVAoNVy8NPjteLW8PJwsSWAkhCklpC15zXV8WPkQhbAs4LBtFOA8teB1keEdXa1YbQ3tvJwgIDBdvRHJzWkEgJF9IEyVMEAh5WEoXfXNYTw4SX0R1bncbN1ddHBEkWA4hPwsXXFU+NVQOPHVXLw0uOF4tbx5mT10hTFdPfiUeFHhnFRtQSxgvS18zWn4lDzRDS1sKFA4/VFFCQisVWVJ1KW59OjAbRVceY1BcI0tbTX0XFXs/KGUaQE4nL0tfPm16L04efEsbNSEOPloLG3hyK1MJFF0/Rm14LD1hDysYIVQ1Xz9BYUpKPTdYH0t1MBI=tpOJyg==; __zzatgib-w-hh=MDA0dC0jViV+FmELHw4/aQsbSl1pCENQGC9LX3krbB5PG09aJEkOCX5WThV9KVcLDAxdQUZzei5BIk5fOVURCxIXRF5cVWl1FRpLSiVueCplJS0xViR8SylEXFV9JyITeXAjVAoNVy8NPjteLW8PJwsSWAkhCklpC15zXV8WPkQhbAs4LBtFOA8teB1keEdXa1YbQ3tvJwgIDBdvRHJzWkEgJF9IEyVMEAh5WEoXfXNYTw4SX0R1bncbN1ddHBEkWA4hPwsXXFU+NVQOPHVXLw0uOF4tbx5mT10hTFdPfiUeFHhnFRtQSxgvS18zWn4lDzRDS1sKFA4/VFFCQisVWVJ1KW59OjAbRVceY1BcI0tbTX0XFXs/KGUaQE4nL0tfPm16L04efEsbNSEOPloLG3hyK1MJFF0/Rm14LD1hDysYIVQ1Xz9BYUpKPTdYH0t1MBI=tpOJyg==; tmr_detect=0%7C1784292250614; gsscgib-w-hh=rZtGcHx3imrX9yKT5jMsf3ztY7bZL1q/sY9X8AZ0wgC4ovFnZvxv7N0KN8Q3ljJoO5hxfohpiiIXgAR0JMYRJzaJzREhOA6STsFxV8ukX/uEMNnYCk2pi840oZjq9p1Q+baCf3jQk+cKAO1kwFmyXW7EVhkHGGQBFa/V+6D+EmtoHXRUY1WPxJoeSedcLDuZ7N+S3xA6qsOtXMKMOnqxRXkmrEhhBjULviAGlGuLbS3s0oab77XfC1QSnH0dvp+FTODUGrCVODqK+S1yHws=; cfidsgib-w-hh=C5oYYb6veBQupp7n+dAvzU6NhGNBQ4Sepg8lKlZza1r47kq8vSmfv1vZdArz3J+cwKJdtT45ojH5MEws5RCXA6xQLHbC0xOb1rrg539WAZGVflxirh8gZnr10kLH5Y+mDwy/GJUD1WoEfYHCFrsIdTQLnbqmw0bGXWG6zw==; cfidsgib-w-hh=C5oYYb6veBQupp7n+dAvzU6NhGNBQ4Sepg8lKlZza1r47kq8vSmfv1vZdArz3J+cwKJdtT45ojH5MEws5RCXA6xQLHbC0xOb1rrg539WAZGVflxirh8gZnr10kLH5Y+mDwy/GJUD1WoEfYHCFrsIdTQLnbqmw0bGXWG6zw==; cfidsgib-w-hh=C5oYYb6veBQupp7n+dAvzU6NhGNBQ4Sepg8lKlZza1r47kq8vSmfv1vZdArz3J+cwKJdtT45ojH5MEws5RCXA6xQLHbC0xOb1rrg539WAZGVflxirh8gZnr10kLH5Y+mDwy/GJUD1WoEfYHCFrsIdTQLnbqmw0bGXWG6zw==; gsscgib-w-hh=rZtGcHx3imrX9yKT5jMsf3ztY7bZL1q/sY9X8AZ0wgC4ovFnZvxv7N0KN8Q3ljJoO5hxfohpiiIXgAR0JMYRJzaJzREhOA6STsFxV8ukX/uEMNnYCk2pi840oZjq9p1Q+baCf3jQk+cKAO1kwFmyXW7EVhkHGGQBFa/V+6D+EmtoHXRUY1WPxJoeSedcLDuZ7N+S3xA6qsOtXMKMOnqxRXkmrEhhBjULviAGlGuLbS3s0oab77XfC1QSnH0dvp+FTODUGrCVODqK+S1yHws=; gsscgib-w-hh=rZtGcHx3imrX9yKT5jMsf3ztY7bZL1q/sY9X8AZ0wgC4ovFnZvxv7N0KN8Q3ljJoO5hxfohpiiIXgAR0JMYRJzaJzREhOA6STsFxV8ukX/uEMNnYCk2pi840oZjq9p1Q+baCf3jQk+cKAO1kwFmyXW7EVhkHGGQBFa/V+6D+EmtoHXRUY1WPxJoeSedcLDuZ7N+S3xA6qsOtXMKMOnqxRXkmrEhhBjULviAGlGuLbS3s0oab77XfC1QSnH0dvp+FTODUGrCVODqK+S1yHws=; __ddg10_=1784292255; __ddg8_=9IC5NL1r9rEODPmO; fgsscgib-w-hh=hX8201bfe38d0d8658397983fff4f9b5c81e820f; fgsscgib-w-hh=hX8201bfe38d0d8658397983fff4f9b5c81e820f"
+					}
+				],
+				"url": {
+					"raw": "https://kazan.hh.ru/shards/vacancy/contact_info?employer_id=5709&id=134668209",
+					"protocol": "https",
+					"host": [
+						"kazan",
+						"hh",
+						"ru"
+					],
+					"path": [
+						"shards",
+						"vacancy",
+						"contact_info"
+					],
+					"query": [
+						{
+							"key": "employer_id",
+							"value": "5709"
+						},
+						{
+							"key": "id",
+							"value": "134668209"
+						}
+					]
+				},
+				"description": "Generated from cURL: curl 'https://kazan.hh.ru/shards/vacancy/contact_info?employer_id=5709&id=134668209' \\\n  -H 'accept: application/json' \\\n  -H 'accept-language: en-US,en;q=0.9,ru;q=0.8' \\\n  -H 'baggage: sentry-trace_id=a4ab66dcc3164b3b9c0503aabfd3e59a,sentry-sample_rand=0.792626,sentry-environment=production,sentry-release=xhh%4026.29.5,sentry-public_key=0cc3a09b6698423b8ca47d3478cfccac,sentry-transaction=%2Fvacancy%2F%7Bid%3Aint%7D,sentry-sample_rate=0.001,sentry-sampled=false' \\\n  -b $'__ddg1_=U1bKbvr76Yv73M6tPGIf; _xsrf=215b24965a8bdc2f033203f9f95ce594; hhuid=tG82y4\\u0021gOA_Z32paFN0xHQ--; regions=88; display=desktop; crypted_hhuid=0EEB3D821594DA7BB5D86E800D02A28AED895E72A1A1A5B2A7DC070F579486F6; _ibc=False; GMT=0; tmr_lvid=d8d6beaea03207a4fec8a874564df544; tmr_lvidTS=1784288477936; iap.uid=f68d1cc918de40b58d2896397f3c26e4; _ym_uid=1784288479234170856; _ym_d=1784288479; domain_sid=yYSAWdx5kDkTmdrf9X2gF%3A1784288479548; TZ=UTC; _ym_isad=1; HOSTILE_ON=0; uxs_uid=712e36e0-81d4-11f1-a998-7b841be04970; region_clarified=kazan.hh.ru; redirect_host=kazan.hh.ru; cookie_policy_agreement=true; hhtoken=suKnt7YEuTuspNG4SyCOT9acs_\\u0021j; hhrole=applicant; _hi=149348604; crypted_id=832B5305985A7FF6281025B6E40E0413A5471C6F722104504734B32F0D03E9F8; hhul=de91b46b60bbc4815821b7d6e61168a61205516c2334bdbad9d7e88f31f05b69; __ddg9_=78.138.181.187; _ym_visorc=b; device_breakpoint=s; device_magritte_breakpoint=s; device_breakpoint=s; device_magritte_breakpoint=s; __zzatgib-w-hh=MDA0dC0jViV+FmELHw4/aQsbSl1pCENQGC9LX3krbB5PG09aJEkOCX5WThV9KVcLDAxdQUZzei5BIk5fOVURCxIXRF5cVWl1FRpLSiVueCplJS0xViR8SylEXFV9JyITeXAjVAoNVy8NPjteLW8PJwsSWAkhCklpC15zXV8WPkQhbAs4LBtFOA8teB1keEdXa1YbQ3tvJwgIDBdvRHJzWkEgJF9IEyVMEAh5WEoXfXNYTw4SX0R1bncbN1ddHBEkWA4hPwsXXFU+NVQOPHVXLw0uOF4tbx5mT10hTFdPfiUeFHhnFRtQSxgvS18zWn4lDzRDS1sKFA4/VFFCQisVWVJ1KW59OjAbRVceY1BcI0tbTX0XFXs/KGUaQE4nL0tfPm16L04efEsbNSEOPloLG3hyK1MJFF0/Rm14LD1hDysYIVQ1Xz9BYUpKPTdYH0t1MBI=tpOJyg==; __zzatgib-w-hh=MDA0dC0jViV+FmELHw4/aQsbSl1pCENQGC9LX3krbB5PG09aJEkOCX5WThV9KVcLDAxdQUZzei5BIk5fOVURCxIXRF5cVWl1FRpLSiVueCplJS0xViR8SylEXFV9JyITeXAjVAoNVy8NPjteLW8PJwsSWAkhCklpC15zXV8WPkQhbAs4LBtFOA8teB1keEdXa1YbQ3tvJwgIDBdvRHJzWkEgJF9IEyVMEAh5WEoXfXNYTw4SX0R1bncbN1ddHBEkWA4hPwsXXFU+NVQOPHVXLw0uOF4tbx5mT10hTFdPfiUeFHhnFRtQSxgvS18zWn4lDzRDS1sKFA4/VFFCQisVWVJ1KW59OjAbRVceY1BcI0tbTX0XFXs/KGUaQE4nL0tfPm16L04efEsbNSEOPloLG3hyK1MJFF0/Rm14LD1hDysYIVQ1Xz9BYUpKPTdYH0t1MBI=tpOJyg==; tmr_detect=0%7C1784292250614; gsscgib-w-hh=rZtGcHx3imrX9yKT5jMsf3ztY7bZL1q/sY9X8AZ0wgC4ovFnZvxv7N0KN8Q3ljJoO5hxfohpiiIXgAR0JMYRJzaJzREhOA6STsFxV8ukX/uEMNnYCk2pi840oZjq9p1Q+baCf3jQk+cKAO1kwFmyXW7EVhkHGGQBFa/V+6D+EmtoHXRUY1WPxJoeSedcLDuZ7N+S3xA6qsOtXMKMOnqxRXkmrEhhBjULviAGlGuLbS3s0oab77XfC1QSnH0dvp+FTODUGrCVODqK+S1yHws=; cfidsgib-w-hh=C5oYYb6veBQupp7n+dAvzU6NhGNBQ4Sepg8lKlZza1r47kq8vSmfv1vZdArz3J+cwKJdtT45ojH5MEws5RCXA6xQLHbC0xOb1rrg539WAZGVflxirh8gZnr10kLH5Y+mDwy/GJUD1WoEfYHCFrsIdTQLnbqmw0bGXWG6zw==; cfidsgib-w-hh=C5oYYb6veBQupp7n+dAvzU6NhGNBQ4Sepg8lKlZza1r47kq8vSmfv1vZdArz3J+cwKJdtT45ojH5MEws5RCXA6xQLHbC0xOb1rrg539WAZGVflxirh8gZnr10kLH5Y+mDwy/GJUD1WoEfYHCFrsIdTQLnbqmw0bGXWG6zw==; cfidsgib-w-hh=C5oYYb6veBQupp7n+dAvzU6NhGNBQ4Sepg8lKlZza1r47kq8vSmfv1vZdArz3J+cwKJdtT45ojH5MEws5RCXA6xQLHbC0xOb1rrg539WAZGVflxirh8gZnr10kLH5Y+mDwy/GJUD1WoEfYHCFrsIdTQLnbqmw0bGXWG6zw==; gsscgib-w-hh=rZtGcHx3imrX9yKT5jMsf3ztY7bZL1q/sY9X8AZ0wgC4ovFnZvxv7N0KN8Q3ljJoO5hxfohpiiIXgAR0JMYRJzaJzREhOA6STsFxV8ukX/uEMNnYCk2pi840oZjq9p1Q+baCf3jQk+cKAO1kwFmyXW7EVhkHGGQBFa/V+6D+EmtoHXRUY1WPxJoeSedcLDuZ7N+S3xA6qsOtXMKMOnqxRXkmrEhhBjULviAGlGuLbS3s0oab77XfC1QSnH0dvp+FTODUGrCVODqK+S1yHws=; gsscgib-w-hh=rZtGcHx3imrX9yKT5jMsf3ztY7bZL1q/sY9X8AZ0wgC4ovFnZvxv7N0KN8Q3ljJoO5hxfohpiiIXgAR0JMYRJzaJzREhOA6STsFxV8ukX/uEMNnYCk2pi840oZjq9p1Q+baCf3jQk+cKAO1kwFmyXW7EVhkHGGQBFa/V+6D+EmtoHXRUY1WPxJoeSedcLDuZ7N+S3xA6qsOtXMKMOnqxRXkmrEhhBjULviAGlGuLbS3s0oab77XfC1QSnH0dvp+FTODUGrCVODqK+S1yHws=; __ddg10_=1784292255; __ddg8_=9IC5NL1r9rEODPmO; fgsscgib-w-hh=hX8201bfe38d0d8658397983fff4f9b5c81e820f; fgsscgib-w-hh=hX8201bfe38d0d8658397983fff4f9b5c81e820f' \\\n  -H 'priority: u=1, i' \\\n  -H 'referer: https://kazan.hh.ru/vacancy/134668209' \\\n  -H 'sec-ch-ua: \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"' \\\n  -H 'sec-ch-ua-mobile: ?0' \\\n  -H 'sec-ch-ua-platform: \"Linux\"' \\\n  -H 'sec-fetch-dest: empty' \\\n  -H 'sec-fetch-mode: cors' \\\n  -H 'sec-fetch-site: same-origin' \\\n  -H 'sentry-trace: a4ab66dcc3164b3b9c0503aabfd3e59a-a0edbfb9c636adab-0' \\\n  -H 'user-agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36' \\\n  -H 'x-gib-fgsscgib-w-hh: hX8201bfe38d0d8658397983fff4f9b5c81e820f' \\\n  -H 'x-gib-gsscgib-w-hh: rZtGcHx3imrX9yKT5jMsf3ztY7bZL1q/sY9X8AZ0wgC4ovFnZvxv7N0KN8Q3ljJoO5hxfohpiiIXgAR0JMYRJzaJzREhOA6STsFxV8ukX/uEMNnYCk2pi840oZjq9p1Q+baCf3jQk+cKAO1kwFmyXW7EVhkHGGQBFa/V+6D+EmtoHXRUY1WPxJoeSedcLDuZ7N+S3xA6qsOtXMKMOnqxRXkmrEhhBjULviAGlGuLbS3s0oab77XfC1QSnH0dvp+FTODUGrCVODqK+S1yHws=' \\\n  -H 'x-hhtmfrom;' \\\n  -H 'x-hhtmsource: vacancy' \\\n  -H 'x-requested-with: XMLHttpRequest' \\\n  -H 'x-xsrftoken: 215b24965a8bdc2f033203f9f95ce594'"
+			},
+			"response": []
+		}
+	]
+}

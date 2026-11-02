@@ -1,0 +1,253 @@
+{
+	"info": {
+		"_postman_id": "1fdd23e2-0c18-4b6b-a13b-daa1f88eea7f",
+		"name": "Part3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39995952"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.telegram.org/bot8843241545:AAEPA81smbmHgoJRHlfUiT9OYzjvsPjPlSI/getMe",
+					"protocol": "https",
+					"host": [
+						"api",
+						"telegram",
+						"org"
+					],
+					"path": [
+						"bot8843241545:AAEPA81smbmHgoJRHlfUiT9OYzjvsPjPlSI",
+						"getMe"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.telegram.org/bot8843241545:AAEPA81smbmHgoJRHlfUiT9OYzjvsPjPlSI/getUpdates",
+					"protocol": "https",
+					"host": [
+						"api",
+						"telegram",
+						"org"
+					],
+					"path": [
+						"bot8843241545:AAEPA81smbmHgoJRHlfUiT9OYzjvsPjPlSI",
+						"getUpdates"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"chat_id\": 7837316001,\n    \"text\": \"Привет! Это сообщение от моего бота.\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.telegram.org/bot8843241545:AAEPA81smbmHgoJRHlfUiT9OYzjvsPjPlSI/sendMessage",
+					"protocol": "https",
+					"host": [
+						"api",
+						"telegram",
+						"org"
+					],
+					"path": [
+						"bot8843241545:AAEPA81smbmHgoJRHlfUiT9OYzjvsPjPlSI",
+						"sendMessage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "chat_id",
+							"value": "7837316001",
+							"type": "text"
+						},
+						{
+							"key": "photo",
+							"type": "file",
+							"src": "/home/andremar/Downloads/aivaz.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://api.telegram.org/bot8843241545:AAEPA81smbmHgoJRHlfUiT9OYzjvsPjPlSI/sendPhoto",
+					"protocol": "https",
+					"host": [
+						"api",
+						"telegram",
+						"org"
+					],
+					"path": [
+						"bot8843241545:AAEPA81smbmHgoJRHlfUiT9OYzjvsPjPlSI",
+						"sendPhoto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "chat_id",
+							"value": "7837316001",
+							"type": "text"
+						},
+						{
+							"key": "photo",
+							"type": "file",
+							"src": "/home/andremar/Downloads/test_pdf.pdf"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://api.telegram.org/bot8843241545:AAEPA81smbmHgoJRHlfUiT9OYzjvsPjPlSI/sendPhoto",
+					"protocol": "https",
+					"host": [
+						"api",
+						"telegram",
+						"org"
+					],
+					"path": [
+						"bot8843241545:AAEPA81smbmHgoJRHlfUiT9OYzjvsPjPlSI",
+						"sendPhoto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "chat_id",
+							"value": "7837316001",
+							"type": "text"
+						},
+						{
+							"key": "document",
+							"type": "file",
+							"src": "/home/andremar/Downloads/test_docx.docx"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://api.telegram.org/bot8843241545:AAEPA81smbmHgoJRHlfUiT9OYzjvsPjPlSI/sendDocument",
+					"protocol": "https",
+					"host": [
+						"api",
+						"telegram",
+						"org"
+					],
+					"path": [
+						"bot8843241545:AAEPA81smbmHgoJRHlfUiT9OYzjvsPjPlSI",
+						"sendDocument"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.telegram.org/bot8843241545:AAEPA81smbmHgoJRHlfUiT9OYzjvsPjPlSI/getUserProfilePhotos?user_id=8843241545",
+					"protocol": "https",
+					"host": [
+						"api",
+						"telegram",
+						"org"
+					],
+					"path": [
+						"bot8843241545:AAEPA81smbmHgoJRHlfUiT9OYzjvsPjPlSI",
+						"getUserProfilePhotos"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "8843241545"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "chat_id",
+							"value": "7837316001",
+							"type": "text"
+						},
+						{
+							"key": "document",
+							"type": "file",
+							"src": "/home/andremar/Downloads/test_pdf.pdf"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://api.telegram.org/bot8843241545:AAEPA81smbmHgoJRHlfUiT9OYzjvsPjPlSI/sendDocument",
+					"protocol": "https",
+					"host": [
+						"api",
+						"telegram",
+						"org"
+					],
+					"path": [
+						"bot8843241545:AAEPA81smbmHgoJRHlfUiT9OYzjvsPjPlSI",
+						"sendDocument"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
